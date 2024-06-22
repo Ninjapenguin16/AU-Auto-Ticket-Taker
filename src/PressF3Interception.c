@@ -60,7 +60,7 @@ bool AllColorsMatch(pixel* Pixels, int size){
 
     }
 
-    // Checks if all pixels match there saved color
+    // Checks if all pixels match their saved color
     for(int i = 0; i < size; i++)
         if(GetPixel(hdcScreen, Pixels[i].x, Pixels[i].y)){
             ReleaseDC(NULL, hdcScreen);
