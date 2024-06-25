@@ -197,13 +197,6 @@ DWORD WINAPI Interception(){
             // Check that 'L' and ',' are pressed
             if(LDown && CommaDown){
 
-                MessageBox(
-                    NULL,
-                    (LPCSTR)"Combo Seen",
-                    (LPCSTR)"AU Auto Ticket Taker",
-                    MB_ICONINFORMATION | MB_OK | MB_SETFOREGROUND
-                );
-
                 // Check if the active window is gmod.exe before passing keystroke
                 if(is_gmod_active())
                     AcceptTicket(&context, &device, &stroke);
