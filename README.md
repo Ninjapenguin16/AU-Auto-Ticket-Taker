@@ -1,3 +1,6 @@
+# Credit
+This uses the [Interception library][InterceptionUrl] and as such inherits the LGPL license from it
+
 # Installation Instructions
 1. Download the latest release
 2. Install the interception driver
@@ -7,3 +10,5 @@
 
 ### Notes
 The helper batch script just makes it so you don't have to mess with Command Prompt at all, the author of the driver locked it for use within that only for some reason
+
+[InterceptionUrl]: https://github.com/oblitum/Interception
