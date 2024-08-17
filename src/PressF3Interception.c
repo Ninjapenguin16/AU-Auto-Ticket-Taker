@@ -109,7 +109,7 @@ void AcceptTicket(InterceptionContext *context, InterceptionDevice *device, Inte
     interception_send(*context, INTERCEPTION_MOUSE(0), (InterceptionStroke *) &mouse_stroke, 1);
 
     // Allow gmod time to see the press
-    Sleep(30);
+    Sleep(50);
 
     // Send F3 key press again to exit free mouse
     keystroke->state = INTERCEPTION_KEY_DOWN;
